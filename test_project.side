@@ -1,0 +1,142 @@
+{
+  "id": "06c55bcd-143c-408b-8dfd-b2414efa01d1",
+  "version": "2.0",
+  "name": "jeaneudes",
+  "url": "https://mohamedmamdouh1999.github.io",
+  "tests": [{
+    "id": "3bc94f8f-3faf-46b0-942d-9b18d33b4001",
+    "name": "Untitled",
+    "commands": [{
+      "id": "68afde02-a03f-4dea-9974-0a50a56a4a81",
+      "comment": "",
+      "command": "open",
+      "target": "/Products_CRUDS/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "89a3789b-f57e-449d-8491-89931b50dd47",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x652",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4aebca4b-5df1-45cc-a03f-3917fbc13eba",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnAdd",
+      "targets": [
+        ["id=btnAdd", "id"],
+        ["css=#btnAdd", "css:finder"],
+        ["xpath=//button[@id='btnAdd']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ajouter un produit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "345e214d-ea89-4ef9-9f92-37fd94b73634",
+      "comment": "",
+      "command": "click",
+      "target": "id=inputName",
+      "targets": [
+        ["id=inputName", "id"],
+        ["css=#inputName", "css:finder"],
+        ["xpath=//input[@id='inputName']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "73a3da5b-0ec0-48e3-9e56-dd98805c713a",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputName",
+      "targets": [
+        ["id=inputName", "id"],
+        ["css=#inputName", "css:finder"],
+        ["xpath=//input[@id='inputName']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "ok"
+    }, {
+      "id": "98b9a6c4-2ea5-424b-909a-945e043eb1a1",
+      "comment": "",
+      "command": "click",
+      "target": "id=inputPrice",
+      "targets": [
+        ["id=inputPrice", "id"],
+        ["css=#inputPrice", "css:finder"],
+        ["xpath=//input[@id='inputPrice']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "13011d14-6192-4543-beac-2cfdac0bc175",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputPrice",
+      "targets": [
+        ["id=inputPrice", "id"],
+        ["css=#inputPrice", "css:finder"],
+        ["xpath=//input[@id='inputPrice']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "90eb08d1-be7d-40f2-b09d-a035a9492c04",
+      "comment": "",
+      "command": "click",
+      "target": "css=#btnAdd > font > font",
+      "targets": [
+        ["css=#btnAdd > font > font", "css:finder"],
+        ["xpath=//button[@id='btnAdd']/font/font", "xpath:idRelative"],
+        ["xpath=//button/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb5ae939-4d9e-4437-9074-6b4030ce2955",
+      "comment": "",
+      "command": "click",
+      "target": "css=#btnAdd > font > font",
+      "targets": [
+        ["css=#btnAdd > font > font", "css:finder"],
+        ["xpath=//button[@id='btnAdd']/font/font", "xpath:idRelative"],
+        ["xpath=//button/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "74620698-2cc8-4aa7-963f-7a977353b318",
+      "comment": "",
+      "command": "click",
+      "target": "css=#btnAdd > font > font",
+      "targets": [
+        ["css=#btnAdd > font > font", "css:finder"],
+        ["xpath=//button[@id='btnAdd']/font/font", "xpath:idRelative"],
+        ["xpath=//button/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "734c84a7-156f-4b10-9ca9-73c34778cfba",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnClear",
+      "targets": [
+        ["id=btnClear", "id"],
+        ["css=#btnClear", "css:finder"],
+        ["xpath=//button[@id='btnClear']", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Forme claire')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a7c97dc2-ab15-422f-a874-9be232c43968",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3bc94f8f-3faf-46b0-942d-9b18d33b4001"]
+  }],
+  "urls": ["https://mohamedmamdouh1999.github.io/"],
+  "plugins": []
+}
